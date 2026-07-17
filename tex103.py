@@ -16,6 +16,6 @@ print("\n" .join(f"{label} = {tax:,.2f}" for label, tax in progressive_tax if ta
 print()
 print(f"income = {income:,.0f}")
 print(f"sum tax = {tax_total:,.2f}")
-print(f"Net income {income:,0f} - {tax_total:,.2f} = {income - tax_total:,.2f}")
+print(f"Net income {income:,.0f} - {tax_total:,.2f} = {income - tax_total:,.2f}")
 print(f"Effective Tax Rate : {tax_total / income * 100:,.2f}%")
 print()
